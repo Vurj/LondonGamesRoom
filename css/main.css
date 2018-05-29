@@ -199,7 +199,7 @@ ul, menu, dir {
 
 .upper-content {
 	padding-top: 30px;
-	min-height: 9.3vh;
+	min-height: calc(100vh - 114px);
 }
 
 .header {
