@@ -45,6 +45,10 @@ h3{
 
 }
 
+strong {
+    font-weight: 700;
+}
+
 p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
