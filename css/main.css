@@ -155,9 +155,9 @@ ul, menu, dir {
 
 
 .navbar li a{
-	font-weight: 400;
+	font-weight: 700;
 	font-family: 'Julius Sans One';
-	font-size: 1.01em;
+	font-size: 1em;
 	height: 20px;
 	overflow: hidden;
 	float: left;
