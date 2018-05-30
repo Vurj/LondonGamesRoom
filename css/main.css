@@ -226,8 +226,8 @@ ul, menu, dir {
 
 .text-container {
 	padding-top: 50px;
-	width: 900px;
-	height:510px;
+	padding-left: 5%;
+	padding-right: 5%;
 	margin: 0px auto;
 }
 
