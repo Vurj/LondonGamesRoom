@@ -399,7 +399,7 @@ ul, menu, dir {
 
 
 .footer{
-	width: 960px;
+	max-width: 960px;
 	margin: 0px auto;
 	background: white;
 	height: 65px;
@@ -412,7 +412,7 @@ ul, menu, dir {
 	margin: 0px auto;
 	padding: 0px;
 	padding-left: 5px;
-	width: 960px;
+	max-width: 960px;
 
 }
 
