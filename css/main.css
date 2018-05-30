@@ -118,6 +118,10 @@ cus.active{
 	float: right;
 }
 
+.logo-bar{
+	display: inline;
+}
+
 .logo-container{
 	float: left;
 }
