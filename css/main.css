@@ -126,7 +126,6 @@ cus.active{
 }
 
 .navbar ul{
-
 	box-sizing: inherit;
 	list-style-type: inherit;
 	display: flex;
@@ -153,6 +152,7 @@ ul, menu, dir {
 
 
 .navbar li a{
+	display: inline;
 	font-weight: 400;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
