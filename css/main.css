@@ -130,7 +130,7 @@ cus.active{
 	box-sizing: inherit;
 	list-style-type: inherit;
 	display: flex;
-	flex: 1;
+
 }
 
 
@@ -147,6 +147,7 @@ ul, menu, dir {
 .navbar li{
 	float: left;
 	text-align: center;
+	flex: 1;
 
 
 }
