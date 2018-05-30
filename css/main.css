@@ -142,7 +142,12 @@ ul, menu, dir {
 }
 
 .navbar li{
+	display: inline;
 	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+	border-color: #CCB66C;
 	flex: 1;
 
 
@@ -150,18 +155,12 @@ ul, menu, dir {
 
 
 .navbar li a{
-	display: inline;
 	font-weight: 400;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	height: 20px;
-	overflow: hidden;
-	float: left;
 	padding: 8px 13px 8px 13.4px;
-	border-style: solid;
-	border-width: 1px;
-	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
-	border-color: #CCB66C;
+
 }
 
 
