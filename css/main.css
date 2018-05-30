@@ -155,16 +155,16 @@ ul, menu, dir {
 
 
 .navbar li a{
+	display: block;
 	font-weight: 400;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	height: 20px;
-	padding: 8px 13px 8px 13.4px;
 
 }
 
 
-.navbar li a:hover {
+.navbar li :hover {
 	font-family: 'Julius Sans One', sans-serif;
 	background: #CCB66C;
 	color: white;
