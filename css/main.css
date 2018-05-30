@@ -131,9 +131,6 @@ cus.active{
 	list-style-type: inherit;
 }
 
-.navbar > li {
-  flex: 1;
-}
 
 ul, menu, dir {
     display: block;
@@ -148,6 +145,7 @@ ul, menu, dir {
 .navbar li{
 	float: left;
 	display: flex;
+	flex: 1;
 	text-align: center;
 
 
@@ -179,7 +177,7 @@ ul, menu, dir {
 
 
 .navbar{
-
+	min-width: 960px;
 
 
 
