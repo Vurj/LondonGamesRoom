@@ -182,7 +182,7 @@ ul, menu, dir {
 
 .content {
 
-	width: 960px;
+	max-width: 960px;
 	height: inherit;
 	margin: 0px auto;
 	background: #fff;
