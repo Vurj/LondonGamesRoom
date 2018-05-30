@@ -115,10 +115,11 @@ cus.active{
 }
 
 .social-media {
-	position: absolute;
-	margin-left: 740px;
-	margin-top: 87px;
-	min-width: 212px;
+	float: right;
+}
+
+.logo-container{
+	float: left;
 }
 
 .social-media li{
