@@ -155,8 +155,8 @@ ul, menu, dir {
 
 
 .navbar li a{
-	font-weight: 700;
-	font-family: 'Julius Sans One';
+	font-weight: 400;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	height: 20px;
 	overflow: hidden;
@@ -191,7 +191,7 @@ ul, menu, dir {
 	height: inherit;
 	margin: 0px auto;
 	background: #fff;
-	min-height: calc(100vh - 65px);
+	min-height: calc(100vh - 365px);
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
@@ -199,7 +199,7 @@ ul, menu, dir {
 
 .upper-content {
 	padding-top: 30px;
-	min-height: calc(100vh - 114px);
+
 }
 
 .header {
