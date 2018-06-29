@@ -110,16 +110,47 @@ cus.active{
 }
 
 .wrapper {
-	position: relative;
-	width: 100%;
-	height: 100%;
+
+}
+
+.content {
+	background: #fff;
+	min-height: calc(100vh - 365px);
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+}
+
+.upper-content{
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	grid-template-rows: 1fr;
+}
+
+.upper-content a{
+	font-size: 0;
+}
+
+.upper-content-logo{
+	grid-row: 1 / span 2;
+	display: grid;
+}
+
+@media (max-width: 1450px)  {
+	.upper-content-logo{
+		grid-row: 1; }
+	.navbar {
+		grid-column: 1/ span 2;
+	}
 }
 
 .social-media {
+	align-self: start;
+	justify-self: end;
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
-	padding: 3px 3px 0 3px;
-	grid-gap: 0.4em;
+	padding: 6px 6px 0px 0px;
+	grid-gap: 8px;
 }
 
 .social-media a{
@@ -127,7 +158,7 @@ cus.active{
 }
 
 .social-media a img{
-	width:32px;
+	width:40px;
 	height: auto;
 }
 
@@ -151,6 +182,7 @@ ul, menu, dir {
 }
 
 .navbar {
+	justify-self: stretch;
 	display: grid;
 	text-align: center;
 	grid-template-columns: repeat(7, 1fr);
@@ -179,16 +211,7 @@ ul, menu, dir {
 
 
 
-.content {
-	max-width: 1500px;
-	height: inherit;
-	margin: 0px auto;
-	background: #fff;
-	min-height: calc(100vh - 365px);
-	border-style: solid;
-	border-width: 0px 0px 0px 0px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
-}
+
 
 
 .header {
@@ -260,29 +283,37 @@ ul, menu, dir {
 }
 
 .ar-container {
+	margin: 0 5% 0 5%;
 	padding-top: 130px;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 40px;
+	grid-column-gap: 40px;
+
+
 }
 
 .ar-product{
  display: grid;
- 
+ grid-template-columns: 45% 55%;
+
+
 }
 
-.ar-imgs-containe{
-	padding-left: 60px;
+.ar-imgs-container{
+	display: grid;
 	}
 
 .ar-img {
-	height: 500px;
+
 
 }
 
 .ar-img a img {
-	height: 500px;
-	width: auto;
+	object-fit: cover;
+	width: 100%;
+	align-self: center;
+
 }
 
 .arc-pannel {
@@ -301,21 +332,21 @@ ul, menu, dir {
 }
 
 .thumb {
-	display: flex;
-	justify-content: space-between;
-	height: 120px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 
 .thumb a {
-	border-color: #CCB66C;
-	border-style: solid;
-	border-width: 1px;
-
+	font-size: 0;
 }
 
-.thumb a img{
-	max-height: 100%;
+.thumb img{
+	object-fit: cover;
+	max-width: 100%;
+	border-color: #CCB66C;
+	border-style: solid;
+	border-width: 2px;
 }
 
 .info-pannel {
