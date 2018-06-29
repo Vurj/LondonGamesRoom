@@ -108,6 +108,7 @@ cus.active{
 	padding-left: 30px;
 	padding-right: 20px;
 }
+
 .wrapper {
 	position: relative;
 	width: 100%;
@@ -115,25 +116,28 @@ cus.active{
 }
 
 .social-media {
-	
+	display: grid;
+	grid-template-columns:repeat(4, 1fr);
+	padding: 3px 3px 0 3px;
+	grid-gap: 0.4em;
+}
+
+.social-media a{
+
+}
+
+.social-media a img{
+	width:32px;
+	height: auto;
 }
 
 .logo-bar{
-	display: inline;
+	display: flex;
+	justify-content: space-between;
 }
 
-.logo-container{
-
-}
-
-.social-media li{
-	display: inline;
-}
-
-.navbar ul{
-  display: flex;
-	box-sizing: inherit;
-
+.logo-bar a{
+	font-size: 0;
 }
 
 
@@ -146,31 +150,28 @@ ul, menu, dir {
     -webkit-padding-start: 0px;
 }
 
-.navbar li{
-	display: inline;
+.navbar {
+	display: grid;
 	text-align: center;
+	grid-template-columns: repeat(7, 1fr);
+
+}
+
+
+.navbar a{
+	align-self: center;
+	white-space: nowrap;
+	padding: 0.3em 1em 0.3em 1em;
 	border-style: solid;
 	border-width: 1px;
 	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
-	flex: 1;
-
-
-}
-
-
-.navbar li a{
-	display: block;
-	font-weight: 400;
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 1em;
-	height: 20px;
+	font-size: 1.3em;
 
 }
 
 
-.navbar li :hover {
-	font-family: 'Julius Sans One', sans-serif;
+.navbar a:hover{
 	background: #CCB66C;
 	color: white;
 
@@ -178,16 +179,8 @@ ul, menu, dir {
 
 
 
-.navbar{
-
-
-
-
-}
-
 .content {
-
-	max-width: 960px;
+	max-width: 1500px;
 	height: inherit;
 	margin: 0px auto;
 	background: #fff;
@@ -197,10 +190,6 @@ ul, menu, dir {
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 }
 
-.upper-content {
-	padding-top: 30px;
-
-}
 
 .header {
 	display: inline;
@@ -237,7 +226,6 @@ ul, menu, dir {
 }
 
 .title-container {
-	height: 40px;
 	padding-top: 90px;
 	padding-left: 30px;
 }
@@ -271,20 +259,29 @@ ul, menu, dir {
 	width: 500px;
 }
 
-.ar-pannel {
-	height: 800px;
+.ar-container {
 	padding-top: 130px;
-	display: block;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
+.ar-product{
 
-.ar-product {
-	vertical-align:top;
-	display: inline-block;
-	padding-top: 0px;
+}
+
+.ar-imgs-containe{
 	padding-left: 60px;
-	height: 600px;
-	width: 380px;
+	}
+
+.ar-img {
+	height: 500px;
+
+}
+
+.ar-img a img {
+	height: 500px;
+	width: auto;
 }
 
 .arc-pannel {
@@ -302,25 +299,33 @@ ul, menu, dir {
 	width: 380px;
 }
 
-.thumb{
-	display: inline;
-	padding-left: 20px;
+.thumb {
+	display: flex;
+	justify-content: space-between;
+	height: 120px;
+
+}
+
+.thumb a {
+	border-color: #CCB66C;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.thumb a img{
+	max-height: 100%;
 }
 
 .info-pannel {
-	display: inline-block;
-	margin: 20px 30px 30px 30px;
-	width: 400px;
+	margin: 0px 30px 0px 30px;
 	border-width: 1px;
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
 	border-style: solid;
 	padding-left: 10px;
-	padding-bottom: 45px;
 	padding-top: 15px;
 	padding-right: 10px;
-
-
 }
 
 .cus-info-pannel {
@@ -335,8 +340,6 @@ ul, menu, dir {
 	padding-bottom: 45px;
 	padding-top: 15px;
 	padding-right: 10px;
-
-
 }
 
 .info-pannel p{
@@ -355,8 +358,6 @@ ul, menu, dir {
 	border-style: solid;
 	border-color: white;
 	border-left-color: #CCB66C;
-
-
 }
 
 .Mpannel{
@@ -369,16 +370,12 @@ ul, menu, dir {
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
 	border-style: solid;
-
-
 }
 
 .Mpannel-right{
 	float: right;
 	height: 700px;
 	width: 400px;
-
-
 }
 
 .Mpannel-left{
@@ -386,7 +383,6 @@ ul, menu, dir {
 	padding-top: 30px;
 	height: 300px;
 	width: 470px;
-
 }
 
  .Modal{
