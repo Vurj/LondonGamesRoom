@@ -134,6 +134,7 @@ cus.active{
 .upper-content-logo{
 	grid-row: 1 / span 2;
 	display: grid;
+	box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);
 }
 
 @media (max-width: 1450px)  {
@@ -160,17 +161,8 @@ cus.active{
 .social-media a img{
 	width:40px;
 	height: auto;
-}
 
-.logo-bar{
-	display: flex;
-	justify-content: space-between;
 }
-
-.logo-bar a{
-	font-size: 0;
-}
-
 
 ul, menu, dir {
     list-style-type: none;
