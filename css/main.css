@@ -267,7 +267,8 @@ ul, menu, dir {
 }
 
 .ar-product{
-
+ display: grid;
+ 
 }
 
 .ar-imgs-containe{
