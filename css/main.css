@@ -26,9 +26,6 @@ h2{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1.563em;
 	font-weight: 400;
-	border-style: solid;
-	border-color: white;
-	border-bottom-color: #CCB66C;
 	display:inline
 
 }
@@ -114,6 +111,7 @@ cus.active{
 }
 
 .content {
+	padding-top: 120px;
 	background: #fff;
 	min-height: calc(100vh - 365px);
 	border-style: solid;
@@ -122,6 +120,11 @@ cus.active{
 }
 
 .upper-content{
+	padding-top: 15px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr 9fr;
 	grid-template-rows: 1fr;
@@ -137,7 +140,8 @@ cus.active{
 	box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);
 }
 
-@media (max-width: 1450px)  {
+/* Nav bar resizing */
+@media (max-width: 1600px)  {
 	.upper-content-logo{
 		grid-row: 1; }
 	.navbar {
@@ -145,12 +149,14 @@ cus.active{
 	}
 }
 
+/* reduce padding on scale down */
+
 .social-media {
 	align-self: start;
 	justify-self: end;
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
-	padding: 6px 6px 0px 0px;
+	padding: 0px 40px 0px 0px;
 	grid-gap: 8px;
 }
 
@@ -242,7 +248,7 @@ ul, menu, dir {
 
 .title-container {
 	padding-top: 90px;
-	padding-left: 30px;
+	padding-left: 150px;
 }
 
 .customcontainer {
@@ -275,19 +281,19 @@ ul, menu, dir {
 }
 
 .ar-container {
-	margin: 0 5% 0 5%;
+	padding: 0 160px 0 160px;
 	padding-top: 130px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-row-gap: 40px;
-	grid-column-gap: 40px;
+	grid-row-gap: 100px;
+	grid-column-gap: 160px;
 
 
 }
 
 .ar-product{
  display: grid;
- grid-template-columns: 45% 55%;
+ grid-template-columns: 40% 60%;
 
 
 }
@@ -342,14 +348,12 @@ ul, menu, dir {
 }
 
 .info-pannel {
-	margin: 0px 30px 0px 30px;
+	margin: 0px 0px 0px 20px;
 	border-width: 1px;
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
 	border-style: solid;
-	padding-left: 10px;
-	padding-top: 15px;
-	padding-right: 10px;
+	padding: 15px 10px 0 10px;
 }
 
 .cus-info-pannel {
@@ -368,7 +372,7 @@ ul, menu, dir {
 
 .info-pannel p{
 	font-weight: 400;
-	font-size: 0.875em;
+	font-size: 1em;
 	padding-top: 10px;
 }
 
@@ -424,8 +428,6 @@ ul, menu, dir {
 
 
 .footer{
-	max-width: 960px;
-	margin: 0px auto;
 	background: white;
 	height: 65px;
 	border-width: 0px 0px 0px 0px;
@@ -434,7 +436,6 @@ ul, menu, dir {
 
 .footer-content {
 	height: 10px;
-	margin: 0px auto;
 	padding: 0px;
 	padding-left: 5px;
 	max-width: 960px;
