@@ -24,7 +24,7 @@ h1{
 
 h2{
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 1.563em;
+	font-size: 1em;
 	font-weight: 400;
 	display:inline
 
@@ -32,7 +32,7 @@ h2{
 
 h3{
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 3.125em;
+	font-size: 2.5em;
 	font-weight: 400;
 	border-style: solid;
 	border-color: white;
@@ -120,7 +120,7 @@ cus.active{
 }
 
 .upper-content{
-	padding-top: 15px;
+	padding-top: 9px;
 	background-color: white;
 	position: fixed;
 	top: 0;
@@ -141,7 +141,7 @@ cus.active{
 }
 
 /* Nav bar resizing */
-@media (max-width: 1600px)  {
+@media (max-width: 1200px)  {
 	.upper-content-logo{
 		grid-row: 1; }
 	.navbar {
@@ -165,7 +165,7 @@ cus.active{
 }
 
 .social-media a img{
-	width:40px;
+	width: 32px;
 	height: auto;
 
 }
@@ -196,7 +196,7 @@ ul, menu, dir {
 	border-width: 1px;
 	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
-	font-size: 1.3em;
+	font-size: 1em;
 
 }
 
@@ -280,13 +280,15 @@ ul, menu, dir {
 	width: 500px;
 }
 
+/* cute baby */
+
 .ar-container {
-	padding: 0 160px 0 160px;
+	padding: 0 130px 0 130px;
 	padding-top: 130px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-row-gap: 100px;
-	grid-column-gap: 160px;
+	grid-column-gap: 80px;
 
 
 }
@@ -329,9 +331,15 @@ ul, menu, dir {
 	width: 380px;
 }
 
-.thumb {
+.thumb-imgs-container{
+	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	border-color: #CCB66C;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.thumb {
+
 
 }
 
@@ -344,7 +352,7 @@ ul, menu, dir {
 	max-width: 100%;
 	border-color: #CCB66C;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 }
 
 .info-pannel {
@@ -372,7 +380,7 @@ ul, menu, dir {
 
 .info-pannel p{
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 0.65em;
 	padding-top: 10px;
 }
 
