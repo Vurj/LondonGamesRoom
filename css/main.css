@@ -475,30 +475,42 @@ ul, menu, dir {
 
 
 .footer{
+	display: grid;
 	background: white;
-	height: 65px;
 	border-width: 0px 0px 0px 0px;
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 }
 
 .footer-content {
+	justify-self: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	height: 10px;
 	padding: 0px;
-	padding-left: 5px;
-	max-width: 960px;
+	padding: 5px 0 0 0;
+	border-right: 0.6px solid black;
 
 }
 
 .footer-content a{
-	display: grid;
+	justify-self: center;
+	display: inline;
 	font-weight: 400;
 	font-size: 0.656em;
-	border-right: 0.6px solid black;
-	display: inline;
 	padding-right: 5px;
 	padding-left: 5px;
 }
 
+@media (max-width: 700px) {
+	.footer-content{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.copyright{
+		grid-column: span 3;
+		justify-self: center;
+	}
+
+}
 
 section#interactive_slider {
 	position: relative;
