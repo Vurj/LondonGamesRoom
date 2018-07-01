@@ -319,6 +319,15 @@ ul, menu, dir {
  grid-template-columns: 40% 60%;
 }
 
+.info-pannel {
+	margin: 0px 0px 0px 20px;
+	border-width: 1px;
+	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	border-color: #CCB66C;
+	border-style: solid;
+	padding: 15px 10px 0 10px;
+}
+
 @media (max-width: 700px)  {
 	.ar-product{
 		grid-template-columns: 1fr;
@@ -328,6 +337,11 @@ ul, menu, dir {
 	.ar-imgs-container{
 	max-width: 200px;
 	justify-self: center;
+	}
+
+	.info-pannel{
+		margin: 0;
+  justify-self: center
 	}
 }
 
@@ -387,14 +401,7 @@ ul, menu, dir {
 	border-width: 1px;
 }
 
-.info-pannel {
-	margin: 0px 0px 0px 20px;
-	border-width: 1px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
-	border-color: #CCB66C;
-	border-style: solid;
-	padding: 15px 10px 0 10px;
-}
+
 
 .cus-info-pannel {
 	display: inline-block;
