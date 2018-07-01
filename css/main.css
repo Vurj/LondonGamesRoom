@@ -249,8 +249,20 @@ ul, menu, dir {
 }
 
 .title-container {
-	padding-top: 90px;
+	display: grid;
+	justify-self: start;
 	padding-left: 150px;
+}
+
+@media (max-width: 700px) {
+	.title-container {
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+	h3{
+		font-size: 1.6em;
+	}
+
 }
 
 .customcontainer {
@@ -310,7 +322,7 @@ ul, menu, dir {
 @media (max-width: 700px)  {
 	.ar-product{
 		grid-template-columns: 1fr;
-		padding: 0 50px 0 50px;
+		padding: 0 30px 0 30px;
 		grid-row-gap: 20px;
 	}
 	.ar-imgs-container{
