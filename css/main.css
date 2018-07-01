@@ -442,14 +442,8 @@ ul, menu, dir {
 
 }
 
-.footer li{
-
-	display: inline;
-	text-align: center;
-}
-
-
-.footer-content nav a{
+.footer-content a{
+	display: grid;
 	font-weight: 400;
 	font-size: 0.656em;
 	border-right: 0.6px solid black;
@@ -458,14 +452,6 @@ ul, menu, dir {
 	padding-left: 5px;
 }
 
-.footer-content .img{
-	float: left;
-
-}
-.footer-content nav{
-	padding-left: 200px;
-	padding-top: 30px;
-}
 
 section#interactive_slider {
 	position: relative;
