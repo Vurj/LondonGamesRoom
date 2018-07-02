@@ -128,7 +128,7 @@ cus.active{
 .upper-content-logo{
 	grid-row: 1 / span 2;
 	display: grid;
-	box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);
+	/*box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);*/
 }
 
 .upper-content-logo img{
@@ -238,7 +238,7 @@ cus.active{
 		background-color: white;
 		padding: 0 20px 0 0;
 		margin: 0;
-		box-shadow: -7px -7px 0 7px white, 0px 0px 20px rgba(204, 182, 108, 1);
+		/*box-shadow: -7px -7px 0 7px white, 0px 0px 20px rgba(204, 182, 108, 1);*/
 	}
 
 	.upper-content-logo img{
