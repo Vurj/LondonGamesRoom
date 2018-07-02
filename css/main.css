@@ -162,7 +162,7 @@ cus.active{
 }
 
 .nav-toggle:checked ~ .nav-icon-container{
-  box-shadow: none;
+  
 }
 
 
