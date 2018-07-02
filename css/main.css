@@ -103,6 +103,7 @@ cus.active{
 .content {
 	display: grid;
 	padding-top: 120px;
+	padding-bottom: 40px;
 	background: #fff;
 	min-height: calc(100vh - 365px);
 	border-style: solid;
