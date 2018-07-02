@@ -162,8 +162,12 @@ cus.active{
 }
 
 .nav-toggle:checked ~ .nav-icon-container{
-  
+
 }
+
+
+
+
 
 
 @media (max-width: 1207px)  {
@@ -312,32 +316,45 @@ cus.active{
 		  width: 18px;
 		}
 
-		.nav-toggle-label span,
-		.nav-toggle-label span::before,
-		.nav-toggle-label span::after {
+		.nav-lines,
+		.nav-lines::before,
+		.nav-lines::after {
+			position: absolute;
+  		transition: all .2s ease-out;
 		  display: block;
 		  background: rgba(204, 182, 108, 1);
 		  height: 2px;
 		  width: 2em;
 		  border-radius: 2px;
-		  position: relative;
-			justify-self: end;
-			align-self: end;
 		}
 
-		.nav-toggle-label span::before,
-		.nav-toggle-label span::after {
-		  content: '';
-		  position: absolute;
-		}
-
-		.nav-toggle-label span::before {
+		.nav-lines::before {
 		  bottom: 7px;
+			content: '';
+			position: absolute;
 		}
 
-		.nav-toggle-label span::after {
+		.nav-lines::after {
 		  top: 7px;
+			content: '';
+			position: absolute;
 		}
+
+		.nav-toggle:checked ~ .nav-icon-container .nav-lines {
+			background: transparent;
+
+		}
+
+		.nav-toggle:checked ~ .nav-icon-container .nav-lines::before {
+			transform: rotate(-45deg);
+			top: 0;
+		}
+
+		.nav-toggle:checked ~ .nav-icon-container .nav-lines::after {
+			transform: rotate(45deg);
+			top: 0;
+		}
+
 }
 
 .slider {
