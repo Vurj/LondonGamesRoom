@@ -126,6 +126,7 @@ cus.active{
 }
 
 .upper-content-logo{
+	width: 100%;
 	grid-row: 1 / span 2;
 	display: grid;
 	/*box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);*/
