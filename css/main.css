@@ -431,6 +431,16 @@ cus.active{
 	justify-self: center;
 }
 
+.cri-container {
+	max-width: 700px;
+	padding: 130px 20px 0 20px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 100px;
+	grid-column-gap: 80px;
+	justify-self: center;
+}
+
 @media (max-width: 1207px)  {
 	.ar-container {
 	grid-template-columns: 1fr;
@@ -441,6 +451,8 @@ cus.active{
 	grid-template-columns: 1fr;
 	max-width: 700px;
 	}
+
+
 
 }
 
