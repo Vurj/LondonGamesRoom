@@ -110,6 +110,7 @@ cus.active{
 }
 
 .upper-content{
+	padding-top: 7px;
 	background-color: white;
 	position: fixed;
 	top: 0;
@@ -373,8 +374,11 @@ cus.active{
 
 @media (max-width: 940px) {
 	.title-container {
-		padding-left: 20px;
-		padding-top: 20px;
+		width: auto;
+	}
+	.title-container h3{
+		padding: 0;
+		margin: 0;
 	}
 	h3{
 		font-size: 1.6em;
@@ -446,6 +450,11 @@ cus.active{
 }
 
 @media (max-width: 1207px)  {
+
+	.title-container{
+		max-width: 700px;
+	}
+
 	.ar-container {
 	grid-template-columns: 1fr;
 	max-width: 700px;
