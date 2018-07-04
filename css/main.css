@@ -298,17 +298,19 @@ cus.active{
 		.nav-toggle-label{
 			align-self: center;
 			justify-self: end;
-			margin: 0 40px 0px 0;
+			margin: 0 0px 0px 0;
 		  display: grid;
-		  height: 2px;
+		  height: 50px;
 		  position: relative;
 		  transition: background .2s ease-out;
-		  width: 18px;
+		  width: 60px;
 		}
 
 		.nav-lines,
 		.nav-lines::before,
 		.nav-lines::after {
+			justify-self: center;
+			align-self: center;
 			position: absolute;
   		transition: all .2s ease-out;
 		  display: block;
@@ -411,12 +413,8 @@ cus.active{
 }
 
 .cus-t-product {
-	vertical-align:top;
-	display: inline-block;
-	padding-top: 20px;
-	padding-right: 10px;
-	padding-left: 20px;
-	width: 500px;
+	display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .tf-container {
@@ -571,18 +569,13 @@ cus.active{
 
 
 .cus-info-pannel {
-	display: inline-block;
-	margin: 20px 30px 30px 30px;
-	width: 300px;
-	border-width: 1px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
-	border-color: #CCB66C;
-	border-style: solid;
-	padding-left: 10px;
-	padding-bottom: 45px;
-	padding-top: 15px;
-	padding-right: 10px;
-}
+		margin: 0px 0px 0px 20px;
+		border-width: 1px;
+		box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+		border-color: #CCB66C;
+		border-style: solid;
+		padding: 15px 10px 0 10px;
+	}
 
 .info-pannel p{
 	font-weight: 400;
@@ -643,7 +636,6 @@ cus.active{
 	justify-self: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	height: 10px;
 	padding: 0px;
 	padding: 5px 0 5px; 0;
 
