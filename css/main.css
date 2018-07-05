@@ -320,13 +320,13 @@ cus.active{
 		}
 
 		.nav-lines::before {
-		  bottom: 7px;
+		  bottom: 9px;
 			content: '';
 			position: absolute;
 		}
 
 		.nav-lines::after {
-		  top: 7px;
+		  top: 9px;
 			content: '';
 			position: absolute;
 		}
@@ -708,11 +708,6 @@ display: grid;
 	}
 
 }
-
-.items{
-	width: 100%;
-}
-
 
 section#interactive_slider {
 	position: relative;
