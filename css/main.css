@@ -103,7 +103,6 @@ cus.active{
 	padding-top: 160px;
 	padding-bottom: 40px;
 	background: #fff;
-	min-height: calc(100vh - 365px);
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
@@ -412,9 +411,24 @@ cus.active{
 	align-self: center;
 }
 
-.cus-t-product {
+.cus-t-img {
+width: 100%;
+display: grid;
+}
+
+.cus-t-img img{
+	object-fit: cover;
+	width: 100%;
+	align-self: center;
+}
+
+.cus-product{
 	display: grid;
-  grid-template-columns: 50% 50%;
+	grid-template-columns: 50% 50%;
+}
+
+.cus-t-product{
+	width: 100%;
 }
 
 .tf-container {
@@ -695,6 +709,11 @@ cus.active{
 
 }
 
+.items{
+	width: 100%;
+}
+
+
 section#interactive_slider {
 	position: relative;
 }
@@ -790,30 +809,7 @@ nav#interactive a#s-7    {
 nav#interactive a#s-7 span  {
 		margin: 38px 0px 0px -14px;
 }
-nav#interactive a#s-8    {
-		border-left: 1px solid #CCB66C;
-		height: 130px;
-		margin: 225px 425px 0px 0px;
-}
-nav#interactive a#s-8 span  {
-		margin: 130px 0px 0px -14px;
-}
-nav#interactive a#s-9    {
-		border-left: 1px solid #CCB66C;
-		height: 70px;
-		margin: 275px 300px 0px 0px;
-}
-nav#interactive a#s-9 span   {
-		margin: 70px 0px 0px -14px;
-}
-nav#interactive a#s-10   {
-		border-top: 1px solid #CCB66C;
-		width: 56px;
-		margin: 255px 56px 0px 0px;
-}
-nav#interactive a#s-10 span {
-		margin: -14px 0px 0px 40px;
-}
+
 
 nav#interactive a.inactive  {
 		border-color: #dbdadc;
