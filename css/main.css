@@ -558,7 +558,7 @@ display: grid;
 .thumb-imgs-container{
 	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
 	border-color: #CCB66C;
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
