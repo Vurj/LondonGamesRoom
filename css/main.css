@@ -11,6 +11,7 @@ PRE{
 }
 
 h1{
+	line-height: 1.4;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2.5em;
 	font-weight: 400;
@@ -18,15 +19,18 @@ h1{
 
 h2{
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 1em;
+	font-size: 2em;
 	font-weight: 400;
-	display:inline
+	line-height: 1.4;
+	display:inline;
+	border-bottom: 2px solid #CCB66C;
 }
 
 h3{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2.5em;
 	font-weight: 400;
+	line-height: 1.4;
 	display: inline;
 	margin: 0;
 }
@@ -39,6 +43,8 @@ p{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 	font-weight: 400;
+	line-height: 1.8;
+
 }
 
 a{
@@ -66,7 +72,7 @@ cus.inactive{
   -moz-border-radius: 28px;
   border-radius: 28px;
   cursor: pointer;
-	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 10px #CCB66C;
 }
 
 cus.active{
@@ -86,7 +92,7 @@ cus.active{
   -moz-border-radius: 28px;
   border-radius: 28px;
   cursor: pointer;
-	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 10px #CCB66C;
 }
 
 .terms-container{
@@ -100,16 +106,18 @@ cus.active{
 
 .content {
 	display: grid;
-	padding-top: 160px;
+	padding-top: 150px;
 	padding-bottom: 40px;
 	background: #fff;
 	border-style: solid;
 	border-width: 0px 0px 0px 0px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 20px #CCB66C;
 }
 
+
 .upper-content{
-	padding-top: 7px;
+	z-index: 1;
+	padding-top: 8px;
 	background-color: white;
 	position: fixed;
 	top: 0;
@@ -127,7 +135,7 @@ cus.active{
 	width: 100%;
 	grid-row: 1 / span 2;
 	display: grid;
-	box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: -6px 0 white, 7px -4px 0 4px white, 0px 0px 20px #CCB66C;
 }
 
 .upper-content-logo img{
@@ -209,7 +217,7 @@ cus.active{
 	padding: 0.3em 1em 0.3em 1em;
 	border-style: solid;
 	border-width: 1px;
-	box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 10px #CCB66C;
 	border-color: #CCB66C;
 	font-size: 1em;
 
@@ -233,7 +241,7 @@ cus.active{
 		background-color: white;
 		padding: 0 20px 0 0;
 		margin: 0;
-		box-shadow: -7px -7px 0 7px white, 0px 0px 20px rgba(204, 182, 108, 1);
+		box-shadow: -7px -7px 0 7px white, 0px 0px 20px #CCB66C;
 	}
 
 	.upper-content-logo img{
@@ -250,7 +258,7 @@ cus.active{
   	transform: scale(1, 0);
   	transform-origin: top;
   	transition: transform 400ms ease-in-out;
-		box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+		box-shadow: 0px 0px 20px #CCB66C;
   }
 
 	.navbar a{
@@ -291,7 +299,7 @@ cus.active{
 		height: 100%;
 		background: white;
 		display: grid;
-		box-shadow: -7px -7px 0 7px white, 0px 0px 20px rgba(204, 182, 108, 1);
+		box-shadow: -7px -7px 0 7px white, 0px 0px 20px #CCB66C;
 	}
 
 		.nav-toggle-label{
@@ -313,7 +321,7 @@ cus.active{
 			position: absolute;
   		transition: all .2s ease-out;
 		  display: block;
-		  background: rgba(204, 182, 108, 1);
+		  background: #CCB66C;
 		  height: 2px;
 		  width: 2em;
 		  border-radius: 2px;
@@ -346,18 +354,21 @@ cus.active{
 			top: 0;
 		}
 
+		.thumb {
+			padding: 0;
+		}
 }
 
 .slider {
-	margin-top: 100px;
 	border-width: 0px 0px 0px 0px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 20px #CCB66C;
+	display: grid;
 }
 
 .text-container {
+	display: grid;
+	max-width: 1000px;
 	padding-top: 50px;
-	padding-left: 5%;
-	padding-right: 5%;
 	margin: 0px auto;
 }
 
@@ -370,7 +381,7 @@ cus.active{
 
 .title-container h3 {
 	padding: 0 0 15px 25px;
-	border-bottom: 2px solid rgba(204, 182, 108, 1);
+	border-bottom: 2px solid #CCB66C;
 }
 
 @media (max-width: 940px) {
@@ -432,27 +443,27 @@ display: grid;
 }
 
 .tf-container {
-	max-width: 1180px;
-	padding: 130px 20px 0 20px;
+	max-width: 1000px;
+	padding: 110px 20px 0 20px;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-row-gap: 100px;
 	grid-column-gap: 80px;
 	justify-self: center;
 }
 
 .ar-container {
-	max-width: 1180px;
+	max-width: 1000px;
 	padding: 130px 20px 0 20px;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-row-gap: 100px;
 	grid-column-gap: 80px;
 	justify-self: center;
 }
 
 .cri-container {
-	max-width: 700px;
+	max-width: 1000px;
 	padding: 85px 20px 0 20px;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -489,9 +500,9 @@ display: grid;
 .info-pannel {
 	margin: 0px 0px 0px 20px;
 	border-width: 1px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	/* box-shadow: 0px 0px 20px #CCB66C;
 	border-color: #CCB66C;
-	border-style: solid;
+	border-style: solid; */
 	padding: 15px 10px 0 10px;
 }
 
@@ -556,13 +567,14 @@ display: grid;
 }
 
 .thumb-imgs-container{
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 20px #CCB66C;
 	border-color: #CCB66C;
 	display: flex;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-content: center;
 }
 
 .thumb {
+	padding: 0 50px;
 	display: grid;
 	align-self: end;
 
@@ -570,14 +582,15 @@ display: grid;
 
 .thumb a {
 	font-size: 0;
+	border-color: #CCB66C;
+	border-style: solid;
+	border-width: 1px;
 }
 
 .thumb img{
 	object-fit: cover;
 	max-width: 100%;
-	border-color: #CCB66C;
-	border-style: solid;
-	border-width: 1px;
+
 }
 
 
@@ -585,7 +598,7 @@ display: grid;
 .cus-info-pannel {
 		margin: 0px 0px 0px 20px;
 		border-width: 1px;
-		box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+		box-shadow: 0px 0px 20px #CCB66C;
 		border-color: #CCB66C;
 		border-style: solid;
 		padding: 15px 10px 0 10px;
@@ -593,8 +606,7 @@ display: grid;
 
 .info-pannel p{
 	font-weight: 400;
-	font-size: 0.65em;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .Mpannel p{
@@ -616,7 +628,7 @@ display: grid;
 	height: 306px;
 	width: 900px;
 	border-width: 1px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 20px #CCB66C;
 	border-color: #CCB66C;
 	border-style: solid;
 }
@@ -644,7 +656,7 @@ display: grid;
 	display: grid;
 	background: white;
 	border-width: 0px 0px 0px 0px;
-	box-shadow: 0px 0px 20px rgba(204, 182, 108, 1);
+	box-shadow: 0px 0px 20px #CCB66C;
 }
 
 .footer-content-container {
@@ -741,7 +753,7 @@ nav#interactive  {
         -webkit-border-radius: 28px;
         -moz-border-radius: 28px;
         border-radius: 28px;
-				box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+				box-shadow: 0px 0px 10px #CCB66C;
         position: absolute;
         cursor: pointer;
 
@@ -850,7 +862,7 @@ nav#interactive2  {
         -webkit-border-radius: 28px;
         -moz-border-radius: 28px;
         border-radius: 28px;
-				box-shadow: 0px 0px 10px rgba(204, 182, 108, 1);
+				box-shadow: 0px 0px 10px #CCB66C;
         position: absolute;
         cursor: pointer;
 }
